@@ -61,16 +61,17 @@ const App = () => {
       <div className="footer">
         <h4> C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h4>
         <p>
-          CHEMICALS & PROCESS POWER WATER & WASTE WATER OILS & GAS PHARMA SUGARS
-          & DISTILLERIES PAPER & PULP MARINE & DEFENCE METAL & MINING FOOD &
-          BEVERAGE PETROCHEMICAL & REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING
+          CHEMICALS & PROCESS <span class="red-bar">|</span> POWER WATER & WASTE WATER <span class="red-bar">|</span> OILS & GAS <span class="red-bar">|</span> PHARMA <span class="red-bar">|</span> SUGARS
+          & DISTILLERIES <span class="red-bar">|</span> PAPER & PULP <span class="red-bar">|</span> MARINE & DEFENCE <span class="red-bar">|</span> METAL & MINING <span class="red-bar">|</span> FOOD &
+          BEVERAGE <span class="red-bar">|</span> PETROCHEMICAL & REFINERIES <span class="red-bar">|</span> SOLAR <span class="red-bar">|</span> BUILDING <span class="red-bar">|</span> HVAC <span class="red-bar">|</span>FIRE FIGHTING <span class="red-bar">|</span>
           AGRICULTURE & RESIDENTIAL
         </p>
         <div className="contact">
           <ul>
-            <li>Toll free <b>1800 200 1234</b></li>
-            <li>wwwfacebook.com/cripumps</li>
-            <li>www.crigroups.com</li>
+          
+            <li><img src="/images/phone.png" alt="phone-icon"/>Toll free <b>1800 200 1234</b></li>
+            <li><img src="/images/facebook.png" alt="facebook-icon"/>wwwfacebook.com/cripumps</li>
+            <li><img src="/images/web.png" alt="web-icon"/>www.crigroups.com</li>
           </ul>
         </div>
       </div>
