@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+
+body{
+  background-color: #cbd465;
+  background-image: linear-gradient(160deg, #fff 0%, #cbd465 100%);
+  font-family:  "Newsreader", serif;
+  max-width: 100vw;
+}
+
+/* header */
+.logo{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.logo img {
+  width: 35%;
+}
+
+/* main */
+.main {
+  display: flex;
+  width: 80v;
+}
+
+
+.left {
+  flex: 1;
+}
+.awardImage{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.awardImage img{ 
+  margin-top: 10%;
+  width: 100%;
+}
+
+.right {
+  flex: 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-image img{
+  width: 100%;
+}
+/* products */
+.products{
+  text-align: center;
+}
+
+.products img{
+  width: 90vw;
+}
+
+/* footer */
+.redHr {
+  background-color: red;
+  height: 2px;
+  border: none;
+}
+
+
+.footer{
+  width: 96.1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.contact ul{
+width: 100vw;
+height: 10vh;
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+background-color: red;
+}
+
+/* responsiveness */
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .contact ul{
+    flex-direction: column;
+  }
+}
